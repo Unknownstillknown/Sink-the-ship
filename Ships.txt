@@ -41,3 +41,5 @@ Class Ship
 	- try to sink opponents ship
 
 4 - No more ships in the opponent
+
+hello
