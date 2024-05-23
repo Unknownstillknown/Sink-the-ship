@@ -1,0 +1,43 @@
+
+Game ->
+	Player 1
+		- Board
+			- Ships
+			- Misses marks
+	Player 2
+		- Board 
+			- Ships
+			- Misses marks
+
+Class Game 
+	2 Players
+Class Player
+	Board
+	makeAMove()
+
+
+Class Board
+	readData
+		- ship()
+		- addShipToBoard()
+	
+Class Ship	
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+1 - get ships into the game 
+	- put txt files read, coordinates of the ships
+		F1 = readFile()
+		F2 = markAsShip()
+		F3 = addAllships() -> data of F1 convert in loop of F2 to be real ships
+
+2 - Board - 30 squares - randomly place your ships 
+	- different types of ships 
+	- small 2 and big 5
+
+3 - Turn of player
+	- try to sink opponents ship
+
+4 - No more ships in the opponent
